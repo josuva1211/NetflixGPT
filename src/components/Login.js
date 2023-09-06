@@ -45,14 +45,10 @@ const Login = () => {
       .then((userCredential) => {
         // Signed in 
         const user = userCredential.user;
-
-        //console.log("Success");
-        // ...
       })
       .catch((error) => {
         const errorCode = error.code;
         const errorMessage = error.message;
-        console.log("User not found or Password is incorrect");
         setErrorMsg("User not found or Password is incorrect");
       });
     }
