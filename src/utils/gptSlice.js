@@ -15,7 +15,7 @@ const gptSlice = createSlice({
             const { movieNames, movieResults } = action.payload;
             state.gptMovies = movieNames;
             state.gptResults = movieResults;
-        }
+        },
     }
 })
 
