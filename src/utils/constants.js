@@ -30,4 +30,6 @@ export const API_OPTIONS = {
       identifier: "esp",
       name: "Spanish"
     }
-  ]
+  ];
+
+  export const OPENAI_KEY = "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";
